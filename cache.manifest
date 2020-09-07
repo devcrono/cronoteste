@@ -38,9 +38,10 @@ js/vue.js
 
 p/AvatarDumperBR.js
 p/exp_BinLoader.js
-p/exp_common.js
-p/exp_jailbreak.js
 p/exp_loader.js
+p/exploit.js
+p/functions.js
+p/jb.js
 p/pl_app2usbBR.js
 p/pl_dbBackupBR.js
 p/pl_dbRestoreBR.js
