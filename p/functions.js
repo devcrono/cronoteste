@@ -1,5 +1,4 @@
 
-
 function load_JB()
 {	var jbDone=getCookie("JB");
 	var spoofed=navigator.userAgent.indexOf("6.72")>=0 ? false : true;
