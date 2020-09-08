@@ -56,8 +56,8 @@ var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
 if(main_ret == 179 || main_ret == 0){
 	setCookie("JB","DONE",1);
-	setTimeout(function(){document.getElementById("msgs").innerHTML="AUTO JAILBREAK REALIZADO COM SUCESSO!!, AGORA ESCOLHA O PAYLOAD DESEJADO!"; }, 400);
+	setTimeout(function(){document.getElementById("msgs").innerHTML="AUTO JAILBREAK REALIZADO COM SUCESSO!!, AGORA ESCOLHA HEN OU MIRA!"; }, 400);
 } else{
-	prompt("Falha ao Tentar Realizar o Auto Jailbreak Favor Reiniciar o PS4 e Tentar Novamente!!");
+	prompt("Falha ao Realizar o Auto Jailbreak! Favor Reiniciar o PS4 e Tentar Novamente!!");
 }}else{alert("Execução Incompleta, Feche e Abra o Navegador Novamente!!");}
 }
