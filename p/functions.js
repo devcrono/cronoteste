@@ -1,4 +1,5 @@
 
+
 function load_JB()
 {	var jbDone=getCookie("JB");
 	var spoofed=navigator.userAgent.indexOf("6.72")>=0 ? false : true;
@@ -12,7 +13,7 @@ function load_JB()
 
 function exploit(){
 	document.getElementById("msgs").innerHTML="EXECUTANDO AUTO JAILBREAK AGUARDE!!";
-	setTimeout(function(){jb();}, 1500);
+	setTimeout(function(){jb();}, 600);
 }
 
 
