@@ -1,6 +1,6 @@
 CACHE MANIFEST 
-# v13.0 
-# 11/09/2020-00:00:57.44 
+# v12.0 
+# 08/09/2020-15:00:57.44 
 
 index.html
 css/icon.css
@@ -39,8 +39,8 @@ js/vue.js
 p/AvatarDumperBR.js
 p/exp_BinLoader.js
 p/exp_common.js
-P/exp_jailbreak.js
-P/exp_loader.js
+p/exp_loader.js
+p/functions.js
 p/pl_app2usbBR.js
 p/pl_dbBackupBR.js
 p/pl_dbRestoreBR.js
@@ -55,8 +55,8 @@ p/pl_HEN2.2.5BR.js
 p/pl_historyBlockerBR.js
 p/pl_kernelDumperBR.js
 p/pl_linux.js
-p/pl_mira.js
 p/pl_MIRA-HEN-TODEX.js
+p/pl_mira.js
 p/pl_miranohb.js
 p/pl_ps4debug.js
 p/pl_remoteplay.js
