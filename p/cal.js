@@ -46,7 +46,7 @@
   jy=0;
   gy-=621;
   }
-  gy2=(gm > 2)?(gy+1):gy;
+  gy2=(gm > 2)?(gy-1):gy;
   days=(366*gy) +(parseInt((gy2+3)/4)) -(parseInt((gy2+870)/100)) +(parseInt((gy2+366)/400)) -80 +gd +g_d_m[gm-1];
   jy+=33*(parseInt(days/12053)); 
   days%=12053;
