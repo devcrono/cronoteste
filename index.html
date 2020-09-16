@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+<title>CRONO_ULTRABOX</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/iconhome.css">
+<link rel="stylesheet" href="css/materializehome.css">
+<link rel="stylesheet" href="css/mainhome.css">
+
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cash Offline AGUARDE!!!: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},2000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+</head>
+<body>
+<a href="https://twitter.com/cronocardoso"><img class="icon" src="img/icon.gif"/></a> 
+<script src="p/cal.js"></script>
+<div style="background: url('img/fundo.jpg') 0% 0% / 100% 100% no-repeat;">
+<nav class="transparent" >
+<div class="nav-wrapper">
+<span id="date" ></span><span id="clock" ></span>
+<h1 class="brand-logo">CRONO_ULTRABOX</h1>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<h1 class="msgs" id="msgs">SELECIONE A FORMA DO EXPLOIT!</h1>
+</div>
+</nav>
+
+<br><br><br><br>
+<div style="text-align:center">
+
+<button class="tile" onclick="load_auto(); return false"><img src="img/HenEnable.png"><p class="white-text">Automático</p>
+</button>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<button class="tile" onclick="load_manual(); return false"><img src="img/HenEnable.png"><p class="white-text">Manual</p>
+</button>&nbsp;&nbsp;&nbsp;
+<br><br><br><br><br><br><br><br><br>
+
+
+<br><br><br><br><br><br><br>
+</div>
+ <script type="text/javascript">
+ if(localStorage.getItem("theme")==null){
+  localStorage.setItem("theme",0)
+ }
+ if(localStorage.getItem("lang")==null){
+  localStorage.setItem("lang","br","eng","esp","fr")
+ }
+ </script>
+ <script src="js/vue.js"></script>
+<script>
+function load_auto(){
+  var link = document.createElement('a');
+	  document.body.appendChild(link);
+      link.href = 'automatico.html';
+	  link.target='';
+	  link.click();
+}
+function load_manual(){
+  var link = document.createElement('a');
+	  document.body.appendChild(link);
+      link.href = 'manual.html';
+	  link.target='';
+	  link.click();
+}
+</script>
+</div>
+</body>
+</html>
