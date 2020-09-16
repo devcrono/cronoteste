@@ -10,10 +10,8 @@
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cash Offline AGUARDE!!!: " + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},2000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
-</script>
-<script>
-  window.applicationCache.onnoupdate=function(){setTimeout(function(){load_JB(); }, 1500);};
-  window.applicationCache.onerror=function(){setTimeout(function(){load_JB(); }, 1500);};
+  window.applicationCache.onnoupdate=function(){setTimeout(function(){load_JB(); }, 1000);};
+  window.applicationCache.onerror=function(){setTimeout(function(){load_JB(); }, 1000);};
 </script>
 <script>
 if (localStorage.passcount == null) localStorage.passcount=0;
@@ -84,15 +82,15 @@ window.failCounter.innerHTML=localStorage.failcount;
       
    },
 
-   {name:"HEN 2.2.6",icon:"HenEnable.png",
+   {name:"HEN 2.2.7",icon:"HenEnable.png",
      
    },
 
-     {name:"HEN 2.2.5",icon:"HenEnable.png",
+     {name:"HEN 2.2.6",icon:"HenEnable.png",
      
    },
 
-    {name:"HEN 2.2.4",icon:"HenEnable.png",
+    {name:"HEN 2.2.5",icon:"HenEnable.png",
    },
 
      {name:"HEN 2.1.3",icon:"HenEnable.png",
@@ -177,49 +175,49 @@ window.failCounter.innerHTML=localStorage.failcount;
     loadPlayload: function(key){
       if(key==0){//Carregar Jailbreak + HEN + MIRA + TO - DEX para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN + MIRA + TO - DEX Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN + MIRA + TO - DEX Carregado com Sucesso ✔";
+      LoadedMSG="Jailbreak + HEN + MIRA + TO - DEX Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_MIRA-HEN-TODEX.js";
       var script = document.createElement('script');script.src = "p/pl_MIRA-HEN-TODEX.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      } 
 
       if(key==1){//Carregar Jailbreak + HEN 2.2.6 para 6.72
+      msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.7 Aguarde ...</div>";
+      LoadedMSG="Jailbreak + HEN 2.2.7 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.7BR.js";
+      var script = document.createElement('script');script.src = "p/pl_HEN2.2.7BR.js";document.getElementsByTagName('head')[0].appendChild(script);
+      var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+     }
+
+      if(key==2){//Carregar Jailbreak + HEN 2.2.6 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.6 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.6 Carregado com Sucesso ✔";
+      LoadedMSG="Jailbreak + HEN 2.2.6 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.6BR.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.2.6BR.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
-      if(key==2){//Carregar Jailbreak + HEN 2.2.5 para 6.72
+     if(key==3){//Carregar Jailbreak + HEN 2.2.5 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.5 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.5 Carregado com Sucesso ✔";
+      LoadedMSG="Jailbreak + HEN 2.2.5 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.5BR.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.2.5BR.js";document.getElementsByTagName('head')[0].appendChild(script);
-      var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
-     }
-
-     if(key==3){//Carregar Jailbreak + HEN 2.2.4 para 6.72
-      msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.4 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.4 Carregado com Sucesso ✔";
-      var script = document.createElement('script');script.src = "p/pl_HEN2.2.4BR.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
       if(key==4){//Carregar Jailbreak + hen 2.1.3 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.1.3 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.1.3 Carregado com Sucesso ✔";
+      LoadedMSG="Jailbreak + HEN 2.1.3 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.1.3.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.1.3.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
       if(key==5){//Carregar Mira
       msgs.innerHTML="<div>Carregando Mira Aguarde ...</div>";
-      LoadedMSG="Mira Carregado com Sucesso ✔";
+      LoadedMSG="Mira Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_mira.js";
        var script = document.createElement('script');script.src = "p/pl_mira.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
       if(key==6){//Carregar Jailbreak + Mira Sem HB
       msgs.innerHTML="<div>Carregando jailbreak + Mira sem HB Aguarde ...</div>";
-      LoadedMSG="Jailbreak + Mira sem HB Carregado com Sucesso ✔";
+      LoadedMSG="Jailbreak + Mira sem HB Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_miranohb.js";
        var script = document.createElement('script');script.src = "p/pl_miranohb.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
