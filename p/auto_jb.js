@@ -26407,7 +26407,7 @@ var _ = malloc_nogc.pop();
 if(main_ret == 179 || main_ret == 0){
 	localStorage.passcount = ++localStorage.passcount;window.passCounter.innerHTML=localStorage.passcount;
 	setTimeout(function(){document.getElementById("msgs").innerHTML="AUTO JAILBREAK REALIZADO COM SUCESSO!!, AGORA ESCOLHA HEN OU MIRA!";
-		document.getElementById("jailbreak").style.display="block";document.getElementById("exploit").style.display="none";},400);
+		document.getElementById("jailbreak").style.display="block";document.getElementById("exploit").style.display="none";}, );
 } else{
 	localStorage.failcount = ++localStorage.failcount;window.failCounter.innerHTML=localStorage.failcount;
 	alert("Falha ao Realizar o Auto Jailbreak! Favor Reiniciar o PS4 e Tentar Novamente!!");
