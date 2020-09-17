@@ -44,14 +44,11 @@ js/vue.js
 
 p/auto_exp_common.js
 p/auto_functions.js
-p/auto_jb.js
 p/AvatarDumperBR.js
 p/cal.js
 p/exp_BinLoader.js
 p/exp_loader.js
 p/manu_exp_common.js
-p/manu_exp_jailbreak.js
-p/manu_jb.js
 p/pl_app2usbBR.js
 p/pl_dbBackupBR.js
 p/pl_dbRestoreBR.js

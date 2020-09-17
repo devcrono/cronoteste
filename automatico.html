@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest">
 <head>
-<title>CRONO_ULTRABOX AUTOMÁTICO</title>
+<title>CRONO_ULTRA_DREAMBOX AUTOMÁTICO</title>
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="css/icon.css">
 <link rel="stylesheet" href="css/materialize.css">
@@ -9,13 +9,16 @@
 </head>
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cash Offline AGUARDE!!!: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},2000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
-  window.applicationCache.onnoupdate=function(){setTimeout(function(){load_JB(); }, 1000);};
-  window.applicationCache.onerror=function(){setTimeout(function(){load_JB(); }, 1000);};
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};</script>
+<script>
+  window.applicationCache.onnoupdate=function(){setTimeout(function(){load_JB(); }, 1500);};
+  window.applicationCache.onerror=function(){setTimeout(function(){load_JB(); }, 1500);};
 </script>
 <script>
 if (localStorage.passcount == null) localStorage.passcount=0;
 window.passCounter.innerHTML=localStorage.passcount;
+</script>
+<script>
 if (localStorage.failcount == null) localStorage.failcount=0;
 window.failCounter.innerHTML=localStorage.failcount;
 </script>
@@ -25,8 +28,8 @@ window.failCounter.innerHTML=localStorage.failcount;
 <div id="app" ><!-- app start -->
 <nav class="transparent" ><!-- navbar start -->
 <div class="nav-wrapper">
+<a href="javascript:void(0)" class="brand-logo left">CRONO_ULTRA_DREAMBOX AUTOMÁTICO</a>
 <a  class="sucessos">SUCESSOS = <span id=passCounter></span></a>
-<a href="javascript:void(0)" class="brand-logo left">CRONO_ULTRABOX AUTOMÁTICO</a>
 <a  class="falhas">FALHAS = <span id=failCounter></span></a>  
 <ul id="nav-mobile" class="right"><!-- navbar links -->   
 </ul>
@@ -55,7 +58,6 @@ window.failCounter.innerHTML=localStorage.failcount;
   <!-- js section  -->
  <script src="p/auto_exp_common.js"></script>
  <script src="p/auto_functions.js"></script>
- <script src="p/auto_jb.js"></script>
  <script src="js/materialize.js"></script>
  <script type="text/javascript">
  if(localStorage.getItem("theme")==null){
@@ -182,28 +184,28 @@ window.failCounter.innerHTML=localStorage.failcount;
 
       if(key==1){//Carregar Jailbreak + HEN 2.2.6 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.7 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.7 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.7BR.js";
+      LoadedMSG="Jailbreak + HEN 2.2.7 Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_HEN2.2.7BR.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.2.7BR.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
       if(key==2){//Carregar Jailbreak + HEN 2.2.6 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.6 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.6 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.6BR.js";
+      LoadedMSG="Jailbreak + HEN 2.2.6 Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_HEN2.2.6BR.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.2.6BR.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
      if(key==3){//Carregar Jailbreak + HEN 2.2.5 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.2.5 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.2.5 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.2.5BR.js";
+      LoadedMSG="Jailbreak + HEN 2.2.5 Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_HEN2.2.5BR.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.2.5BR.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
 
       if(key==4){//Carregar Jailbreak + hen 2.1.3 para 6.72
       msgs.innerHTML="<div>Carregando Jailbreak + HEN 2.1.3 Aguarde ...</div>";
-      LoadedMSG="Jailbreak + HEN 2.1.3 Carregado com Sucesso ✔";ExploitMira="HEN";MiraSRC="p/pl_HEN2.1.3.js";
+      LoadedMSG="Jailbreak + HEN 2.1.3 Carregado com Sucesso ✔";ExploitMira="yes";MiraSRC="p/pl_HEN2.1.3.js";
       var script = document.createElement('script');script.src = "p/pl_HEN2.1.3.js";document.getElementsByTagName('head')[0].appendChild(script);
       var script = document.createElement('script');script.src = "p/exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
      }
