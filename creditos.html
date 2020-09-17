@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+<title>CRONO_ULTRA_DREAMBOX</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/icon.css">
+<link rel="stylesheet" href="css/materialize.css">
+<link rel="stylesheet" href="css/main.css">
+
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cash Offline AGUARDE!!!: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},2000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+</head>
+<body>
+<a href="https://twitter.com/cronocardoso"><img class="icon" src="img/icon.gif"/></a> 
+<script src="p/cal.js"></script>
+<div style="background: url('img/fundo.jpg') 0% 0% / 100% 100% no-repeat;">
+<nav class="transparent" >
+<div class="nav-wrapper">
+	<a href="javascript:void(0)" class="brand-logo left">CRONO_ULTRA_DREAMBOX CREDITOS</a>
+<span id="date" ></span><span id="clock" ></span>
+ 
+<h1 class="msgs" id="msgs"></h1>
+</div>
+</nav>
+
+
+<div style="text-align:center">
+	<br>
+<div class="aboutUs"  v-show="isAboutUsShow" :dir="changeText('rtl','ltr')" ><!-- about us start -->
+    
+    <p><h3>CRONO_ULTRA_DREAMBOX</h3></p>
+    <p>É um projeto com o VISUAL BASEADO no HOST REI DA NOITE do SALT meu amigo Persa✔</p>
+    <p><h4>Um Agradecimento Especial<h4></p>
+    <p>✔Crono_ - Mugiwara(@84Ciss) - Tecniqueza - GamerHack93 - SALT - Karo Sharifi - Systro  - frangarcj - 84Ciss -  CTurt - wildcard ✔</p>
+    <P>✔AmirHossein Kianfard - Alireza - Alazif - Leeful -sleirsgoevy - GamerHack93 - DefaultDNB - golde - qwertyoruiop✔</p> 
+    <P>✔theorywrong - Seremo - z80 - balika011 - Zer0xFF - SpecterDev - flatz - xvortex  - 2much4u✔</p>
+    <P>✔bigboss - Rogero - AbkarinoMHM - fjtrujy - CelesteBlue - valentinbreiz - Joonie - AlexAltea ✔</p>
+    <P>✔m0rph3us1987 - eeply - zecoxao - aerosoul - maxton - ChendoChap - sugarleaf - kozarovv - LM ✔</p>
+    <p>✔TheFlow - samsepi0l - masterzorag ✔</p>
+    <p>OBRIGADO!</p>
+    <br><br><br><br><br>
+   </div><!-- about us end -->
+</div>
+
+ <script src="js/vue.js"></script>
+ <script src="js/materialize.js"></script>
+
+</div>
+</body>
+</html>

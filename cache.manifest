@@ -3,6 +3,7 @@ CACHE MANIFEST
 # 17/09/2020-11:00:57.44 
 
 index.html
+creditos.html
 automatico.html
 manual.html
 css/icon.css
@@ -16,6 +17,7 @@ img/app2usb.png
 img/avatarDumper.png
 img/backup.png
 img/binloader.png
+img/creditos.png
 img/disableupdate.png
 img/dumper.png
 img/enableupdate.png

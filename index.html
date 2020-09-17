@@ -28,9 +28,11 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Ca
 <div style="text-align:center">
 
 <button class="tile" onclick="load_auto(); return false"><img src="img/HenEnable.png"><p class="white-text">Automático</p>
-</button>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <button class="tile" onclick="load_manual(); return false"><img src="img/HenEnable.png"><p class="white-text">Manual</p>
-</button>&nbsp;&nbsp;&nbsp;
+</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="tile" onclick="load_creditos(); return false"><img src="img/creditos.png"><p class="white-text">Creditos</p>
+</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br><br><br><br><br><br><br><br><br>
 
 
@@ -45,6 +47,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Ca
  }
  </script>
  <script src="js/vue.js"></script>
+ <script src="js/materialize.js"></script>
 <script>
 function load_auto(){
   var link = document.createElement('a');
@@ -57,6 +60,13 @@ function load_manual(){
   var link = document.createElement('a');
 	  document.body.appendChild(link);
       link.href = 'manual.html';
+	  link.target='';
+	  link.click();
+}
+function load_creditos(){
+  var link = document.createElement('a');
+	  document.body.appendChild(link);
+      link.href = 'creditos.html';
 	  link.target='';
 	  link.click();
 }
