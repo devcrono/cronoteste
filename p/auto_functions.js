@@ -12,7 +12,7 @@ function load_JB()
 }
 
 function exploit(){
-	document.getElementById("msgs").innerHTML="EXECUTANDO AUTO JAILBREAK AGUARDE!!";
+	document.getElementById("msgs").innerHTML="EXECUTANDO AUTO JAILBREAK AGUARDE!! / RUNNING AUTO JAILBREAK WAIT !!";
 	setTimeout(function(){jb();}, 500);
 }
 

