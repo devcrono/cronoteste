@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/mainhome.css">
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cache Offline AGUARDE! / Installing Offline Cache WAIT!: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso! / Cache Installed Successfully!";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!<br>NOW! Exit, Turn off the Internet and Open the Browser Again to run the EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso! / Cache Installed Successfully!";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!<br> NOW! Exit, Turn off the Internet and Open the Browser Again to run the EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 </head>
 <body>
@@ -20,7 +20,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Ca
 <div class="nav-wrapper">
 <span id="date" ></span><span id="clock" ></span>
 <h1 class="brand-logo">CRONO_ DREAMBOX PS4 V12</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<h1 class="msgs" id="msgs">SELECIONE A FORMA DO EXPLOIT! - SELECT THE FORM OF THE EXPLOIT!</h1>
+<h1 class="msgs" id="msgs">SELECIONE A FORMA DO EXPLOIT! / SELECT THE FORM OF THE EXPLOIT!</h1>
 </div>
 </nav>
 <br><br><br><br>

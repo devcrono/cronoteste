@@ -10,7 +10,7 @@
 </head>
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cache Offline AGUARDE! / Installing Offline Cache WAIT!: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso! / Cache Installed Successfully!";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!<br>NOW! Exit, Turn off the Internet and Open the Browser Again to run the EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso! / Cache Installed Successfully!";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!<br> NOW! Exit, Turn off the Internet and Open the Browser Again to run the EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 <script>
 if (localStorage.passcount == null) localStorage.passcount=0;
@@ -36,7 +36,7 @@ window.failCounter.innerHTML=localStorage.failcount;
 </div>
 </nav><!-- navbar end -->
   <div class="loader" v-if="isLoaderShow">
-   <span id="msgs">SELECIONE O EXPLOIT QUE DESEJA ATIVAR! - SELECT THE EXPLOIT YOU WANT TO ACTIVATE!</span>
+   <span id="msgs">SELECIONE O EXPLOIT QUE DESEJA ATIVAR! / SELECT THE EXPLOIT YOU WANT TO ACTIVATE!</span>
    <span id="temp" >
     <input type="range" id="tempC" min="40" @change="temp=tempC.value" value="60" step="1" max="79" />
     <span class="tempVal" >{{temp+"&#176;C"}}</span>
