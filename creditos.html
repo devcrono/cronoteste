@@ -7,10 +7,9 @@
 <link rel="stylesheet" href="css/icon.css">
 <link rel="stylesheet" href="css/materialize.css">
 <link rel="stylesheet" href="css/main.css">
-
 <script>
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cash Offline AGUARDE!!!: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso !";},2000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cache Offline AGUARDE! / Installing Offline Cache WAIT!: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Cache Instalado com Sucesso! / Cache Installed Successfully!";},3000);setTimeout(function(){window.msgs.innerHTML="AGORA! Saia, Desligue a Internet e Abra o Navegador Novamente para executar os EXPLOITS! / NOW! Exit, Turn off the Internet and Open the Browser Again to run the EXPLOITS!";},5000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 </head>
 <body>
@@ -19,18 +18,13 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Ca
 <div style="background: url('img/fundo.jpg') 0% 0% / 100% 100% no-repeat;">
 <nav class="transparent" >
 <div class="nav-wrapper">
-	<a href="javascript:void(0)" class="brand-logo left">CRONO_ DREAMBOX PS4 V12 CRÈDITOS</a>
+<a href="javascript:void(0)" class="brand-logo left">CRONO_ DREAMBOX PS4 V12 CRÈDITOS</a>
 <span id="date" ></span><span id="clock" ></span>
- 
 <h1 class="msgs" id="msgs"></h1>
 </div>
 </nav>
-
-
 <div style="text-align:center">
-
 <div class="aboutUs"  v-show="isAboutUsShow" :dir="changeText('rtl','ltr')" ><!-- about us start -->
-    
     <p><h3>CRONO_ULTRA_DREAMBOX</h3></p>
     <p><h4>Um Agradecimento Especial<h4></p>
 <p>✔
@@ -101,10 +95,8 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML=" Ca
     <br><br><br><br><br><br><br><br>
    </div><!-- about us end -->
 </div>
-
  <script src="js/vue.js"></script>
  <script src="js/materialize.js"></script>
-
 </div>
 </body>
 </html>
