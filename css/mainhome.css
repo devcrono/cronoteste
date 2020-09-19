@@ -74,7 +74,7 @@ line-height: auto;
 
 .tile:hover{
  animation:shake 1s;
- background-image: linear-gradient(180deg,#000,#D6080F);
+ background-image: linear-gradient(180deg,#000,#00f);
  background-size:100% 100%;
  background-repeat:no-repeat;
  cursor: pointer;
@@ -119,7 +119,7 @@ line-height: auto;
 
 .tile-payload:hover{
  animation:shake 1s;
- background-image: linear-gradient(180deg,#000,#D6080F);
+ background-image: linear-gradient(180deg,#000,#00f);
  background-size:100% 100%;
  background-repeat:no-repeat;
  cursor: pointer;
@@ -165,7 +165,7 @@ line-height: auto;
 
 .tile-payload2:hover{
  animation:shake 1s;
- background-image: linear-gradient(180deg,#000,#D6080F);
+ background-image: linear-gradient(180deg,#000,#00f);
  background-size:100% 100%;
  background-repeat:no-repeat;
  cursor: pointer;
@@ -180,7 +180,7 @@ line-height: auto;
     color: #fff !important;
 }
 .nav-wrapper{
- background-image: linear-gradient(180deg,#D6080F,#000);
+ background-image: linear-gradient(180deg,#00f,#000);
 }
 
 #nav-mobile li{
