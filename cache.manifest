@@ -53,6 +53,7 @@ p/exp_BinLoader.js
 p/exp_loader.js
 p/manu_exp_common.js
 p/pl_app2usbBR.js
+p/pl_CacheUSB.js
 p/pl_dbBackupBR.js
 p/pl_dbRestoreBR.js
 p/pl_dumperv1.4BR.js
